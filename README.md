@@ -143,7 +143,7 @@ confirm using `!ls` command in the next cell.<br>
 Go to the GitHub repository. In Quick setup section, You have the options to set up in desktop, use HTTPS or SSH. Select SSH and copy the url. for example `git@github.com:shre-db/stock-price-prediction-using-RNN-LSTM.git`. This URL specifies the location of a Git repository hosted on GitHub using the SSH protocol and will be used to add remote origin as shown below. In the code snippet below replace `git@github.com:shre-db/stock-price-prediction-using-RNN-LSTM.git` with the URL you've copied.
 ```
 # Create README.md file Add files to the staging area, Commit the changes and Push
-!echo "# EMNIST-CNN" >> README.md
+!echo "# Stock Price Prediction using RNN-LSTM" >> README.md
 !git add README.md notebook.ipynb
 !git commit -m "Add README and notebook" -m "This commit includes a README file and a notebook containing code for preliminary setup."
 !git branch -M main
